@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'devaps_ssp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'devaps',
+        'NAME': 'devapps',
         'USER': 'postgres',
         'PASSWORD': 'password',
         'HOST': 'localhost',
